@@ -3,7 +3,8 @@ version '1.0-SNAPSHOT'
 
 buildscript {
     repositories {
-        jcenter()
+        google()
+        mavenCentral()
         maven {
             url "https://maven.google.com"
         }
@@ -16,7 +17,8 @@ buildscript {
 
 rootProject.allprojects {
     repositories {
-        jcenter()
+        google()
+        mavenCentral()
         maven {
             url "https://maven.google.com"
         }
